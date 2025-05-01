@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cv-container">
+    <!-- Left Section -->
+    <div class="left-section">
+      <img src="https://via.placeholder.com/120" alt="Profile Picture" class="profile-pic" />
+      <h2>Full Name</h2>
+      <p>Email: your.email@example.com</p>
+      <p>Phone: +123 456 7890</p>
+      <p>Address: Your City, Country</p>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right-section">
+      <h1>About Me</h1>
+      <p>Brief introduction or personal summary goes here.</p>
+
+      <h2>Skills</h2>
+      <ul id="skills-list"></ul>
+      <input type="text" id="new-skill" placeholder="Enter a new skill" />
+      <button onclick="addSkill()">Add</button>
+
+      <h2>Education</h2>
+      <ul id="education-list"></ul>
+      <input type="text" id="new-edu" placeholder="Enter education info" />
+      <button onclick="addEducation()">Add</button>
+
+      <h2>Work Experience</h2>
+      <ul id="work-list"></ul>
+      <input type="text" id="new-work" placeholder="Enter work experience" />
+      <button onclick="addWork()">Add</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
